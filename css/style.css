@@ -79,18 +79,18 @@ body{
 }
 .items{
 	text-align: center;
+	margin-bottom: 100px;
 }
 .item{
 	display: inline-block;
 	width: 320px;
-	position: relative;
-	top: -80px;
 }
 .item h3{
 	font-size: 22px;
 	font-weight: bold;
 	color: #424242;
 	margin-bottom: 0;
+	padding-top: 100px;
 }
 .item p{
 	display: inline-block;
@@ -99,17 +99,17 @@ body{
 	font-size: 13px;
 	color: #5b5b5b;
 }
-.item-info{
-	padding-top: 180px;
+.item-facebook h3{
+	background: url(../images/ic-hand.png) no-repeat 50% 0;
 }
-.item-facebook{
-	background: url(../images/ic-hand.png) no-repeat center;
+.item-creation h3{
+	background: url(../images/ic-book.png) no-repeat 50% 0;
 }
-.item-creation{
-	background: url(../images/ic-book.png) no-repeat center;
+.item-ads h3{
+	background: url(../images/ic-comment.png) no-repeat 50% 0;
 }
-.item-ads{
-	background: url(../images/ic-comment.png) no-repeat center;
+.item a{
+	text-decoration: none;
 }
 footer{
 	background-color: #515151;
